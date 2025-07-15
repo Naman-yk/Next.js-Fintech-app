@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .animate-scroll {
+    animation: scroll 20s linear infinite;
+  }
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .animate-scroll {
+    animation: scroll 25s linear infinite;
+  }
+  @keyframes fade {
+    0%, 100% {
+      opacity: 0;
+    }
+    10%, 30% {
+      opacity: 1;
+    }
+  }
+  
+  .animate-fade {
+    animation: fade 25s infinite;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  
